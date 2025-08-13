@@ -15,6 +15,7 @@ namespace ExerciseTracing
             Console.WriteLine("Exercise Tracking Summary:");
             Console.WriteLine("--------------------------");
 
+            // Iterate through the list and display the summary for each activity
             foreach (var activity in activities)
             {
                 Console.WriteLine(activity.GetSummary());

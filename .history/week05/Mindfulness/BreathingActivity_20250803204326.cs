@@ -19,6 +19,7 @@ namespace Mindfulness {
                 Console.Write("Breathe in... ");
                 ShowCountDown(4);
 
+                // Check if time is up before starting the next phase
                 if (DateTime.Now >= endTime) break;
 
                 Console.Write("Now breathe out... ");
